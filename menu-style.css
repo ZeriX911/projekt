@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+li {
+    display: inline-block;
+    transition-duration: 0.5s;
+    max-width: 50vw;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li a {
+    text-transform: capitalize;
+}
+
+header {
+    min-height: 5vh;
+}
+
+nav {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+.back {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://pp.userapi.com/c841122/v841122831/327e/nHt-92F6yc4.jpg) no-repeat top center #efeff1;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    text-align: center;
+}
+
+nav a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #16151b;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+}
+
+nav a:hover:before {
+    animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
