@@ -5,24 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="info-s.css">
+
     <title>Solar System</title>
 </head>
 
 <body>
-    <h1>Bolygó bejelentő</h1>
-    <p>Ha esetleg felfedezne egy újabb bolygót a naprendszerünkben, kérem töltse ki a lejjebb található kérdőívet. Segítségét előre is köszönjük :)</p>
-    <div>
-        <form>
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Email cím" id="email">
-            <label for="name">Név</label>
-            <input type="text" name="name" placeholder="A neve" id="name">
+    <header>
+        <nav>
+            <ul>
+                <li>Kezdőlap</li>
+                <li>Bolygók</li>
+                <li>Bolygó bejelentő</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="page-content">
+        <h1>Bolygó bejelentő</h1>
+        <p>Ha esetleg felfedezne egy újabb bolygót a naprendszerünkben, kérem töltse ki a lejjebb található kérdőívet. Segítségét előre is köszönjük :)</p>
+        <div class="main-block">
+            <form>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email cím" id="email">
+                </div>
+                <div>
+                    <label for="name">Név</label>
+                    <input type="text" name="name" placeholder="A neve" id="name">
+                </div>
+                <div>
+                    <label for="pname">Bolygó elnevezése</label>
+                    <input type="text" name="pname" placeholder="A bolygó neve" id="pname">
+                </div>
+                <div>
+                    <label for="data">Bolygó adatai</label>
+                    <textarea name="data" id="data"></textarea>
+                </div>
 
+            </form>
 
-
-        </form>
-
-        </form>
+            </form>
+        </div>
     </div>
 </body>
 
