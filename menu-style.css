@@ -17,20 +17,18 @@ li a {
     text-decoration: none;
     color: #16151b;
     font-size: 2.5vh;
-    letter-spacing: 1px;
+    background: linear-gradient(left, #000 50%, #fff 50%);
+    background: -moz-linear-gradient(left, #000 50%, #fff 50%);
+    background: -o-linear-gradient(left, #000 50%, #fff 50%);
+    background-size: 201%;
+    background-position-x: 100%;
+    transition: all .5s ease-out;
 }
 
-li a::after {
-    width: 0;
-    height: 100%;
-    transition: all ease 0.5s;
-    background-color: #000;
-    color: #FFF;
-}
-
-li a:hover::after {
-    width: 100%;
-    transition: all ease 0.5s;
+li a:hover {
+    background-color: aqua;
+    background-position-x: 0%;
+    color: #fff;
 }
 
 header {
@@ -41,10 +39,6 @@ nav {
     width: 100%;
     top: 50px;
     text-align: center;
-}
-
-nav a:hover:before {
-    animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
 
 ul {
