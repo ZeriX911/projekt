@@ -15,11 +15,11 @@ li a {
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-    color: #16151b;
+    color: #ffffff;
     font-size: 2.5vh;
-    background: linear-gradient(to right, #000 50%, #fff 50%);
-    background: -moz-linear-gradient(left, #000 50%, #fff 50%);
-    background: -o-linear-gradient(left, #000 50%, #fff 50%);
+    background: linear-gradient(to left, #000 50%, #fff 50%);
+    background: -moz-linear-gradient(right, #000 50%, #fff 50%);
+    background: -o-linear-gradient(right, #000 50%, #fff 50%);
     background-size: 203%;
     background-position-x: 100%;
     transition: all .5s ease-out;
@@ -28,19 +28,21 @@ li a {
 li a:hover {
     background-color: aqua;
     background-position-x: 0%;
-    color: #fff;
+    color: #000;
 }
 
 header {
-    min-height: 5vh;
+    top: 0;
+    min-height: 10vh;
+    background-image: url("../srx/stars.jpg");
 }
 
 nav {
     width: 100%;
-    top: 50px;
     text-align: center;
 }
 
 ul {
+    margin: 0;
     padding: 0;
 }

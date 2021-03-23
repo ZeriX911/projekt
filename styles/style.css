@@ -1,8 +1,10 @@
 body,
 html {
     background-color: white;
+    background-image: url("../srx/stars.jpg");
     margin: 0;
     height: 100%;
+    color: white;
 }
 
 .page-content {
@@ -20,7 +22,7 @@ html {
 }
 
 footer {
-    background-color: rgb(180, 180, 180);
+    background-color: #16151b;
     max-width: 100%;
     left: 0;
     bottom: 0;
