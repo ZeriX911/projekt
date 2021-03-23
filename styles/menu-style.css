@@ -44,37 +44,3 @@ nav {
 ul {
     padding: 0;
 }
-.table_bal_oszlop{
-    text-align: right;
-}
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td{
-    padding: 5px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #16151b;
-}
-tr:nth-child(even){
-    background-color:aqua;
-}
-tr:nth-child(odd){
-    background-color:#fff;
-}
-table{
-    width: 700px;
-    float: left;
-    margin: 10px;
-}
-#bolygo_kep{
-    width: 650px;
-    float: right;
-    margin: 10px;
-}
-#bolygo_szoveg{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
