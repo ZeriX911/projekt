@@ -6,11 +6,14 @@ html {
     height: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
 }
 
 .page-content {
     display: block;
     height: 100%;
+    padding: 5%;
+    margin-bottom: 10px;
 }
 
 .copyright {
@@ -23,16 +26,17 @@ html {
 }
 
 footer {
+    display: block;
     background-color: #16151b;
     max-width: 100%;
     left: 0;
-    bottom: 0;
+    margin-top: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
     min-width: 100%;
-    bottom: 0;
-    top: 100vw;
-    margin-bottom: -50px;
+    bottom: 0px;
+    top: 200%;
+    position: static;
 }
 
 .footer-content {
@@ -75,11 +79,20 @@ table {
 }
 
 #bolygo_kep {
-    width: 650px;
+    width: 50%;
     float: right;
     margin: 10px;
 }
 
-#bolygo_szoveg {
+p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    padding-top: 0;
+    border: 1px solid white;
+    display: block;
+    border-radius: 10px;
+}
+
+q {
+    padding-bottom: 100px;
 }
