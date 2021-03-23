@@ -2,10 +2,12 @@ body,
 html {
     background-color: white;
     margin: 0;
+    height: 100%;
 }
 
 .page-content {
     display: block;
+    height: 100%;
 }
 
 .copyright {
@@ -14,14 +16,24 @@ html {
 
 .bejelento {
     display: inline;
+    float: right;
 }
 
 footer {
-    background-color: aqua;
-    width: 100%;
+    background-color: rgb(180, 180, 180);
+    max-width: 100%;
     left: 0;
-    padding: 30px 0 30px 30px;
     bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 100%;
+    bottom: 0;
+    top: 100vw;
+    margin-bottom: -50px;
+}
+
+.footer-content {
+    padding: 10px;
 }
 
 .table_bal_oszlop {
