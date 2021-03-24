@@ -36,5 +36,9 @@ q {
 }
 
 .gomb{
-    width: 200px;
+    width: 20%;
+}
+
+#check_pox{
+    text-align: left;
 }
