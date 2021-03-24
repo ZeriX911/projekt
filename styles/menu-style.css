@@ -53,16 +53,21 @@ ul {
 
 #banner {
     margin: 2vw;
-    background: linear-gradient(to right top, #000 20%, #fff 50%);
-    background: -moz-linear-gradient(bottom, #000 20%, #fff 50%);
-    background: -o-linear-gradient(bottom, #000 20%, #fff 50%);
+    background: linear-gradient(to right top, #000 10%, #fff 30%);
+    background: -moz-linear-gradient(bottom, #000 10%, #fff 30%);
+    background: -o-linear-gradient(bottom, #000 10%, #fff 30%);
     background-size: 203%;
     background-position-x: 50%;
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent
+    color: transparent;
+    padding: 0 5vw 0 5vw;
 }
 
 #banner:hover {
     background-position-x: 100%;
+    border: 3px solid red;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
