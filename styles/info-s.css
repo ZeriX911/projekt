@@ -20,28 +20,44 @@ input {
     font-size: 5vh;
     margin-bottom: 2vh;
     border-top-left-radius: 0px;
+    background: fixed black;
 }
 
 label {
     border: 2px solid #1c87c9;
     margin-top: 30px;
-    margin-right: 85%;
     border-radius: 15px;
     padding: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    width: 50vw;
 }
 
 q {
     margin-bottom: 15px;
 }
 
-.gomb{
-    width: 20%;
-}
-
-#adult{
+#adult {
     width: 5%;
     margin-top: 7px;
     margin-left: 0px;
+}
+
+.gomb {
+    width: 50%;
+    cursor: pointer
+}
+
+#res {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+}
+
+#sub {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
 }
