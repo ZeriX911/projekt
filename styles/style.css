@@ -176,6 +176,7 @@ q {
 .lightbox:target {
     display: block;
 }
+
 .lightbox span {
     display: block;
     width: 100%;
