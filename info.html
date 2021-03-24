@@ -54,20 +54,22 @@
                     <input type="email" name="email" placeholder="Email cím" id="email">
                 </div>
                 <div>
-                    <label for="name">Név</label>
-                    <input type="text" name="name" placeholder="A neve" id="name">
+                    <label for="date">Felfedezés időpontja</label>
+                    <input type="date" name="date" id="date">
                 </div>
                 <div>
                     <label for="pname">Bolygó elnevezése</label>
                     <input type="text" name="pname" placeholder="A bolygó neve" id="pname">
                 </div>
                 <div>
-                    <label for="data">Bolygó adatai</label>
-                    <input type="text" name="data" id="data"></textarea>
+                    <label for="holdak">Holdjainak száma</label>
+                    <input type="number" name="holdak" id="holdak" min="0">
                 </div>
-
-            </form>
-
+                <div id="check_pox">
+                    <label for="adult">Elmúltam már 18 éves</label>
+                    <input type="checkbox" name="adult" id="adult">
+                </div>
+                <input class="gomb" type="button" value="Reset"><input class="gomb" type="button" value="Küldés">
             </form>
         </div>
     </main>
