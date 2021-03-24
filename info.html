@@ -45,33 +45,39 @@
         </nav>
     </header>
     <main class="page-content">
-        <h1>Bolygó bejelentő</h1>
-        <q>Ha esetleg felfedezne egy újabb bolygót a naprendszerünkben, kérem töltse ki a lejjebb található kérdőívet. Segítségét előre is köszönjük :)</q><br><br><br>
+
         <div class="main-block">
             <form>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Email cím" id="email">
-                </div>
-                <div>
-                    <label for="date">Felfedezés időpontja</label>
-                    <input type="date" name="date" id="date">
-                </div>
-                <div>
-                    <label for="pname">Bolygó elnevezése</label>
-                    <input type="text" name="pname" placeholder="A bolygó neve" id="pname">
-                </div>
-                <div>
-                    <label for="holdak">Holdjainak száma</label>
-                    <input type="number" name="holdak" id="holdak" min="0">
-                </div>
-                <div>
-                    <label for="adult">Elmúltam már 18 éves</label>
-                    <div><input type="checkbox" name="adult" id="adult"></div>
-                </div>
-                <div>
-                    <input class="gomb" type="reset" id="res" value="Reset"><input class="gomb" id="sub" type="submit" value="Küldés">
-                </div>
+                <fieldset>
+                    <legend>
+                        <h1>Bolygó bejelentő</h1>
+                    </legend>
+                    <q>Ha esetleg felfedezne egy újabb bolygót a naprendszerünkben, kérem töltse ki a lejjebb található kérdőívet. Segítségét előre is köszönjük :)</q><br><br><br>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email cím" id="email">
+                    </div>
+                    <div>
+                        <label for="date">Felfedezés időpontja</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div>
+                        <label for="pname">Bolygó elnevezése</label>
+                        <input type="text" name="pname" placeholder="A bolygó neve" id="pname">
+                    </div>
+                    <div>
+                        <label for="holdak">Holdjainak száma</label>
+                        <input type="number" name="holdak" id="holdak" min="0">
+                    </div>
+                    <div>
+                        <label for="adult">Elmúltam már 18 éves</label>
+                        <div><input type="checkbox" name="adult" id="adult"></div>
+                    </div>
+                    <div>
+                        <input class="gomb" type="reset" id="res" value="Reset"><input class="gomb" id="sub" type="submit" value="Küldés">
+
+                    </div>
+                </fieldset>
             </form>
         </div>
     </main>
