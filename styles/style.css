@@ -43,7 +43,8 @@ html {
 #x-wing {
     margin: auto;
     animation: grad 15s ease infinite;
-    z-index: 999;
+    width: 50%;
+    z-index: 100;
 }
 
 .page-content {
@@ -214,7 +215,6 @@ p::selection {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     text-transform: none;
-    text-decoration: none;
     color: #fff;
     background-clip: border-box;
     width: 100%;
@@ -224,4 +224,12 @@ p::selection {
 
 #invisible td {
     width: 50%;
+}
+
+th {
+    font-size: 3vh;
+}
+
+#biggy {
+    width: 10vw;
 }
