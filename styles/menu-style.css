@@ -18,7 +18,7 @@ li a {
     background: linear-gradient(to left, #000 50%, #fff 50%);
     background: -moz-linear-gradient(right, #000 50%, #fff 50%);
     background: -o-linear-gradient(right, #000 50%, #fff 50%);
-    background-size: 203%;
+    background-size: 210%;
     background-position-x: 100%;
     text-decoration: none;
     color: #ffffff;
@@ -60,20 +60,30 @@ ul {
     background-position-x: 0%;
     background-clip: text;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     padding: 0 5vw 0 5vw;
-    animation: ease-in;
+    animation: ease-in-out;
     padding-top: 300px;
     font-size: 3vh;
 }
 
 #banner:hover {
-    transform: scale3d(1.4);
     background-position-x: 100%;
+    animation: ease-in-out;
+    transform: scale(1.4);
     border: 3px solid red;
-    border-radius: 20px;
+    animation: ease-in-out 3s;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-radius: 20px;
+    transition: all .3s ease-out;
+}
+
+.banner {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 #ab {
