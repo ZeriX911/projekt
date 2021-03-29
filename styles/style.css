@@ -78,11 +78,11 @@ html {
 .bejelento {
     margin: auto;
     display: inline-block;
+    float: right;
 }
 
 footer {
     display: block;
-    background-color: #16151b;
     max-width: 100%;
     left: 0;
     margin-top: 10%;
@@ -185,4 +185,49 @@ q {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+@media print {
+    p {
+        font-size: 12pt;
+    }
+    video,
+    audio {
+        display: none;
+    }
+    h1,
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+p::selection {
+    background-color: yellow;
+    color: black;
+}
+
+#invisible,
+#invisible td,
+#invisible tr {
+    border: 0px transparent;
+    background-color: transparent;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    background-clip: border-box;
+    width: 100%;
+    margin: 0;
+    height: 1vh;
+}
+
+#invisible td {
+    width: 50%;
 }
