@@ -43,6 +43,7 @@ html {
 #x-wing {
     margin: auto;
     animation: grad 15s ease infinite;
+    z-index: 999;
 }
 
 .page-content {

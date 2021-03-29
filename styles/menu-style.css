@@ -64,6 +64,7 @@ ul {
     padding: 0 5vw 0 5vw;
     animation: ease-in;
     padding-top: 300px;
+    font-size: 3vh;
 }
 
 #banner:hover {
@@ -89,4 +90,5 @@ ul {
     border-radius: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    font-size: 3vh;
 }
