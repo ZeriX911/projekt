@@ -1,3 +1,7 @@
+header {
+    position: fixed;
+}
+
 html,
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -62,17 +66,25 @@ q {
     border-bottom-right-radius: 15px;
 }
 
-form {
-    padding: 30px;
-    border-radius: 15px;
+legend {
+    border: none;
+    max-width: 100%;
 }
 
-legend {}
+fieldset {
+    border: none;
+}
+
+form {
+    padding: 1vw;
+    border: 1px solid #1c87c9;
+    border-radius: 15px;
+}
 
 @media only screen and (max-width: 600px) {
     img {
         float: none;
-        display: block;
+        display: none;
         margin: 0 auto;
     }
 }
