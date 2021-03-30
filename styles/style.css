@@ -186,13 +186,20 @@ q {
         font-size: 12pt;
     }
     video,
-    audio {
+    audio,
+    iframe,
+    footer,
+    .footer-content {
         display: none;
     }
     h1,
     h2,
     h3 {
         page-break-after: avoid;
+    }
+    footer {
+        height: 0;
+        top: 0;
     }
 }
 
