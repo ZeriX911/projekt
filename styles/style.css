@@ -6,7 +6,7 @@ html {
     height: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1vw;
+    font-size: 1.1vh;
     animation: stars 15s ease infinite;
 }
 
@@ -230,10 +230,10 @@ th {
     font-size: 3vh;
 }
 
-#biggy {
-    width: 10vw;
-}
-
 iframe {
     max-width: 100%;
+}
+
+audio {
+    z-index: -41;
 }
