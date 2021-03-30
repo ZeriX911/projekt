@@ -106,21 +106,3 @@ ul {
     border-top-right-radius: 0;
     font-size: 3vh;
 }
-
-#usr {
-    top: -10px;
-    left: -10px;
-    font-family: monospace;
-    min-height: 0;
-    position: fixed;
-    z-index: 3;
-    padding-bottom: 0;
-    float: right;
-    height: 3vh;
-    border: 1px solid white;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
-    border-bottom-right-radius: 15px;
-    background: blue
-}
