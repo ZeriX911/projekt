@@ -78,7 +78,7 @@ html {
 
 .bejelento {
     margin: auto;
-    display: inline-block;
+    float: right;
 }
 
 footer {
