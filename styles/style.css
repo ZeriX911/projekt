@@ -321,7 +321,7 @@ audio {
 @media (max-width: 400px) {
     footer {
         display: block;
-        top: 650vh;
+        top: 620vh;
     }
     .bejelento {
         float: right;
