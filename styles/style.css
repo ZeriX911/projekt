@@ -6,7 +6,7 @@ html {
     height: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1vh;
+    font-size: 2vh;
     animation: stars 15s ease infinite;
 }
 
@@ -102,11 +102,23 @@ footer {
     text-align: right;
 }
 
+aside {
+    width: 10vw;
+}
+
+table {
+    width: 10px;
+}
+
 table,
 th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+tr {
+    max-width: 50%;
 }
 
 th,
@@ -128,7 +140,7 @@ tr:nth-child(odd) {
 }
 
 table {
-    width: 700px;
+    min-width: 700px;
     float: left;
     margin: 20px;
 }
