@@ -139,12 +139,6 @@ tr:nth-child(odd) {
     background-color: #fff;
 }
 
-table {
-    min-width: 700px;
-    float: left;
-    margin: 20px;
-}
-
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
@@ -246,7 +240,7 @@ iframe {
     height: auto;
 }
 
-.kontener{
+.kontener {
     float: right;
     position: relative;
     width: 50%;
@@ -261,7 +255,7 @@ iframe {
     color: #f1f1f1;
     width: 90%;
     transition: .5s ease;
-    opacity:0;
+    opacity: 0;
     color: white;
     font-size: 20px;
     padding: 20px;
@@ -271,6 +265,35 @@ iframe {
 .kontener:hover .overlaySzoveg {
     opacity: 1;
 }
+
 audio {
     z-index: -41;
+}
+
+@media (min-width: 700px) {
+    table {
+        float: left;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 700px) {
+    aside {
+        width: 100%;
+    }
+    table {
+        float: none;
+        width: 100%;
+    }
+    footer {
+        display: block;
+        top: 400vh;
+    }
+}
+
+@media (max-width: 400px) {
+    footer {
+        display: block;
+        top: 600vh;
+    }
 }
