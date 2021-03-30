@@ -133,12 +133,6 @@ table {
     margin: 20px;
 }
 
-#bolygo_kep {
-    width: 20%;
-    float: right;
-    margin: 10px;
-}
-
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
@@ -236,4 +230,36 @@ th {
 
 iframe {
     max-width: 100%;
+}
+
+#bolygo_kep {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.kontener{
+    float: right;
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.overlaySzoveg {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.kontener:hover .overlaySzoveg {
+    opacity: 1;
 }
