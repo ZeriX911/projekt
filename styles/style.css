@@ -212,6 +212,10 @@ p::selection {
     color: black;
 }
 
+input[type="checkbox"] {
+    background: fixed;
+}
+
 #invisible,
 #invisible td,
 #invisible tr {
@@ -237,7 +241,8 @@ th {
 }
 
 iframe {
-    max-width: 100%;
+    max-width: 1000%;
+    height: 50vh;
 }
 
 #bolygo_kep {
@@ -289,6 +294,10 @@ audio {
         float: left;
         width: 50vw;
     }
+    iframe {
+        width: 50vw;
+        height: 50vh;
+    }
 }
 
 @media (max-width: 700px) {
@@ -303,6 +312,10 @@ audio {
         display: block;
         top: 400vh;
     }
+    iframe {
+        width: 100%;
+        height: 80vh;
+    }
 }
 
 @media (max-width: 400px) {
@@ -310,4 +323,9 @@ audio {
         display: block;
         top: 600vh;
     }
+}
+
+#falcon {
+    width: 50%;
+    float: right;
 }
