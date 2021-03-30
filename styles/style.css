@@ -287,7 +287,10 @@ iframe {
 }
 
 audio {
-    z-index: -41;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
 }
 
 @media (min-width: 700px) {
