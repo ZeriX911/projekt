@@ -244,13 +244,17 @@ iframe {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .kontener{
+    margin: 10px;
     float: right;
     position: relative;
     width: 50%;
     max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.342);
 }
 
 .overlaySzoveg {
@@ -259,8 +263,8 @@ iframe {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 90%;
-    transition: .5s ease;
+    width: 87%;
+    transition: 1s ease;
     opacity:0;
     color: white;
     font-size: 20px;
@@ -270,6 +274,9 @@ iframe {
 
 .kontener:hover .overlaySzoveg {
     opacity: 1;
+}
+.kontener:hover{
+    box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.856);
 }
 audio {
     z-index: -41;
