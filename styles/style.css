@@ -233,3 +233,7 @@ th {
 #biggy {
     width: 10vw;
 }
+
+iframe {
+    max-width: 100%;
+}
