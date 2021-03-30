@@ -150,6 +150,7 @@ p {
 q {
     padding-bottom: 100px;
     width: auto;
+    column-count: 1;
 }
 
 #mainmenu {
